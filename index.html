@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tejas Patil — Full-Stack MERN Developer & DSA Specialist</title>
+  <meta name="description" content="Portfolio of Tejas Patil — B.Tech IT student, Full-Stack MERN developer, and DSA specialist crafting high-performance digital experiences." />
+  <meta name="keywords" content="Tejas Patil, Full-Stack Developer, MERN Stack, React, Node.js, C++, DSA, Portfolio, IT Student, Shirpur" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="acid-noise">
+
+  <!-- ==================================================================== -->
+  <!-- FULL SCREEN HERO SECTION (PROTECTED & INTERACTIVE CANVAS)            -->
+  <!-- ==================================================================== -->
+  <section id="hero" class="hero-section" oncontextmenu="return false;" onselectstart="return false;">
+    <!-- Desktop Hero Artwork -->
+    <img src="assets/desktop-hero-ref.png" alt="Tejas Patil — Hero Section" class="hero-img desktop-hero" draggable="false" ondragstart="return false;" oncontextmenu="return false;" />
+    
+    <!-- Mobile Hero Artwork -->
+    <img src="assets/mobile-hero-ref.png" alt="Tejas Patil — Hero Section" class="hero-img mobile-hero" draggable="false" ondragstart="return false;" oncontextmenu="return false;" />
+
+    <!-- Desktop Floating Oval Right Navbar (Expandable on Hover / Click) -->
+    <nav class="desktop-oval-navbar collapsed" id="desktop-oval-navbar" aria-label="Desktop Hero Navigation">
+      <div class="oval-nav-container">
+        <!-- Compact Toggle Trigger Header -->
+        <button class="oval-nav-toggle" id="oval-nav-toggle" title="Toggle Navigation">
+          <span class="toggle-icon">›</span>
+          <span class="toggle-badge">MENU</span>
+        </button>
+
+        <!-- Expandable Menu Links List -->
+        <div class="oval-nav-menu">
+          <!-- Home Link -->
+          <a href="#hero" class="nav-oval-item active" title="Home">
+            <span class="nav-icon">⌂</span>
+            <span class="nav-tooltip">HOME</span>
+          </a>
+
+          <!-- Projects Link -->
+          <a href="#projects" class="nav-oval-item" title="Projects">
+            <span class="nav-icon">⊞</span>
+            <span class="nav-tooltip">PROJECTS</span>
+          </a>
+
+          <!-- Process Link -->
+          <a href="#process" class="nav-oval-item" title="Process">
+            <span class="nav-icon">⚡</span>
+            <span class="nav-tooltip">PROCESS</span>
+          </a>
+
+          <!-- Contact Link -->
+          <a href="#contact" class="nav-oval-item" title="Contact">
+            <span class="nav-icon">✉</span>
+            <span class="nav-tooltip">CONTACT</span>
+          </a>
+
+          <!-- Divider -->
+          <div class="nav-oval-divider"></div>
+
+          <!-- Quick Copy Email Trigger -->
+          <button class="nav-oval-item copy-email-trigger" title="Copy Email">
+            <span class="nav-icon text-acid">✦</span>
+            <span class="nav-tooltip">COPY EMAIL</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Interactive Hero Micro Pixel Grid (Small Dots / Micro Boxes Hover Mesh) -->
+    <div class="hero-pixel-grid" id="hero-pixel-grid"></div>
+
+    <!-- Interactive Hero Hotspots & Links -->
+    <div class="hero-interactive-overlay">
+      <!-- GitHub Hotspot -->
+      <a href="https://github.com/Tejaspatil1175" target="_blank" rel="noreferrer" class="hero-hotspot hotspot-github" title="GitHub Profile"></a>
+
+      <!-- LinkedIn Hotspot -->
+      <a href="https://www.linkedin.com/in/tejaspatil-dev/" target="_blank" rel="noreferrer" class="hero-hotspot hotspot-linkedin" title="LinkedIn Profile"></a>
+    </div>
+  </section>
+
+  <!-- ==================================================================== -->
+  <!-- SCROLL DOWN CONTENT (EXACT MATCH TO REFERENCE DESIGN)               -->
+  <!-- ==================================================================== -->
+  <main class="content-wrapper">
+    
+    <!-- ROW 1: SELECTED PROJECTS (LEFT) & PROCESS NOTES (RIGHT) -->
+    <div class="row-projects-process">
+      
+      <!-- LEFT: SELECTED PROJECTS -->
+      <section id="projects" class="content-card projects-section">
+        <div class="card-title-bar">
+          <span class="eyebrow-text">SELECTED PROJECTS</span>
+          <div class="title-line"></div>
+        </div>
+
+        <div class="projects-list">
+          
+          <!-- Project 01: FINSECURE -->
+          <article class="project-row-item">
+            <span class="green-num">01</span>
+            <div class="project-info-col">
+              <h3 class="proj-title-text">FINSECURE</h3>
+              <p class="proj-category-text">FINTECH / SECURITY / NOKIA APIs / 2026</p>
+              <p class="proj-desc-mini text-acid">TOP 10 FINALIST @ IMC NEW DELHI (1800+ TEAMS)</p>
+            </div>
+            <div class="project-thumb-compact dark-theme">
+              <span class="thumb-label text-acid">FINSEC</span>
+            </div>
+            <a href="https://github.com/Tejaspatil1175" target="_blank" rel="noreferrer" class="proj-arrow-btn">↗</a>
+          </article>
+
+          <!-- Project 02: CROPCONNECT -->
+          <article class="project-row-item">
+            <span class="green-num">02</span>
+            <div class="project-info-col">
+              <h3 class="proj-title-text">CROPCONNECT</h3>
+              <p class="proj-category-text">AGRITECH / MARKETPLACE / MERN / 2026</p>
+              <p class="proj-desc-mini text-acid">3RD PLACE @ NMIMS SOBUS INNOVENT (LOKMAT FEATURED)</p>
+            </div>
+            <div class="project-thumb-compact acid-theme">
+              <span class="thumb-label text-dark">CROP</span>
+            </div>
+            <a href="https://github.com/Tejaspatil1175/cropconnect-app" target="_blank" rel="noreferrer" class="proj-arrow-btn">↗</a>
+          </article>
+
+          <!-- Project 03: AGENTS.ROOM -->
+          <article class="project-row-item">
+            <span class="green-num">03</span>
+            <div class="project-info-col">
+              <h3 class="proj-title-text">AGENTS.ROOM</h3>
+              <p class="proj-category-text">AI ENGINE / NO-CODE BUILDER / 2026</p>
+              <p class="proj-desc-mini text-acid">MULTI-AGENT WEB APP GENERATION PLATFORM</p>
+            </div>
+            <div class="project-thumb-compact mobile-theme">
+              <span class="thumb-label text-acid">AGENTS</span>
+            </div>
+            <a href="https://github.com/Tejaspatil1175/agents.room" target="_blank" rel="noreferrer" class="proj-arrow-btn">↗</a>
+          </article>
+
+        </div>
+
+        <div class="projects-footer-bar">
+          <span>VIEW FULL PROJECT ARCHIVE</span>
+          <span class="plus-icon">+</span>
+        </div>
+      </section>
+
+      <!-- RIGHT: PROCESS NOTES -->
+      <section id="process" class="content-card process-section">
+        <div class="card-title-bar">
+          <span class="section-title text-acid">PROCESS NOTES</span>
+        </div>
+
+        <div class="process-vertical-list">
+          
+          <div class="process-note-item">
+            <div class="process-svg-icon">
+              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M16 4L4 10l12 6 12-6-12-6zM4 16l12 6 12-6M4 22l12 6 12-6" />
+              </svg>
+            </div>
+            <div class="process-text-content">
+              <h4 class="process-heading">RESEARCH</h4>
+              <p class="process-subtext">Understand the problem, audience, and context.</p>
+            </div>
+          </div>
+
+          <div class="process-note-item">
+            <div class="process-svg-icon">
+              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M16 2v28M2 16h28M6.05 6.05l19.9 19.9M6.05 25.95l19.9-19.9" />
+              </svg>
+            </div>
+            <div class="process-text-content">
+              <h4 class="process-heading">CONCEPT</h4>
+              <p class="process-subtext">Explore directions. Sketch. Question. Refine.</p>
+            </div>
+          </div>
+
+          <div class="process-note-item">
+            <div class="process-svg-icon">
+              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="16" cy="16" r="4" />
+                <ellipse cx="16" cy="16" rx="12" ry="5" transform="rotate(30 16 16)" />
+                <ellipse cx="16" cy="16" rx="12" ry="5" transform="rotate(-30 16 16)" />
+              </svg>
+            </div>
+            <div class="process-text-content">
+              <h4 class="process-heading">DESIGN</h4>
+              <p class="process-subtext">Build visual systems with purpose and edge.</p>
+            </div>
+          </div>
+
+          <div class="process-note-item">
+            <div class="process-svg-icon">
+              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="16" cy="16" r="12" />
+                <path d="M2 16h28M16 4a20 20 0 0 1 5 12 20 20 0 0 1-5 12 20 20 0 0 1-5-12 20 20 0 0 1 5-12z" />
+              </svg>
+            </div>
+            <div class="process-text-content">
+              <h4 class="process-heading">DEVELOP</h4>
+              <p class="process-subtext">Prototype, iterate, and bring to life.</p>
+            </div>
+          </div>
+
+          <div class="process-note-item">
+            <div class="process-svg-icon">
+              <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="16" cy="16" r="6" />
+                <path d="M16 2v4M16 26v4M2 16h4M26 16h4M6.05 6.05l2.83 2.83M23.12 23.12l2.83 2.83M6.05 25.95l2.83-2.83M23.12 8.88l2.83-2.83" />
+              </svg>
+            </div>
+            <div class="process-text-content">
+              <h4 class="process-heading">DELIVER</h4>
+              <p class="process-subtext">Polish every detail. Launch with impact.</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+
+    <!-- ROW 2: SKILLS MATRIX (LEFT) | QUOTE BOX (MIDDLE) | TOOLS CARD (RIGHT) -->
+    <div class="row-skills-quote-tools">
+      
+      <!-- SKILLS MATRIX -->
+      <section class="content-card skills-matrix-card">
+        <div class="card-title-bar">
+          <span class="eyebrow-text">SKILLS MATRIX</span>
+        </div>
+
+        <div class="skills-matrix-grid">
+          <div class="skills-labels">
+            <span>FULL-STACK MERN</span>
+            <span>C++ / DSA</span>
+            <span>SYSTEM DESIGN</span>
+            <span>DATABASE (MONGO/SQL)</span>
+            <span>REST & GRAPHQL</span>
+            <span>UI/UX & TAILWIND</span>
+            <span>PROBLEM SOLVING</span>
+            <span>DEVOPS & GIT</span>
+          </div>
+
+          <div class="matrix-blocks-container">
+            <!-- 8 Rows of Matrix Blocks -->
+            <div class="matrix-row">
+              <span class="block empty"></span><span class="block empty"></span><span class="block empty"></span><span class="block white"></span><span class="block green"></span><span class="block green"></span><span class="block green"></span><span class="block green"></span>
+            </div>
+            <div class="matrix-row">
+              <span class="block empty"></span><span class="block empty"></span><span class="block empty"></span><span class="block empty"></span><span class="block white"></span><span class="block green"></span><span class="block green"></span><span class="block green"></span>
+            </div>
+            <div class="matrix-row">
+              <span class="block empty"></span><span class="block empty"></span><span class="block white"></span><span class="block white"></span><span class="block green"></span><span class="block green"></span><span class="block empty"></span><span class="block empty"></span>
+            </div>
+            <div class="matrix-row">
+              <span class="block empty"></span><span class="block empty"></span><span class="block empty"></span><span class="block empty"></span><span class="block green"></span><span class="block green"></span><span class="block green"></span><span class="block green"></span>
+            </div>
+            <div class="matrix-row">
+              <span class="block empty"></span><span class="block empty"></span><span class="block green"></span><span class="block green"></span><span class="block green"></span><span class="block green"></span><span class="block empty"></span><span class="block empty"></span>
+            </div>
+            <div class="matrix-row">
+              <span class="block empty"></span><span class="block empty"></span><span class="block empty"></span><span class="block green"></span><span class="block green"></span><span class="block green"></span><span class="block empty"></span><span class="block empty"></span>
+            </div>
+            <div class="matrix-row">
+              <span class="block empty"></span><span class="block empty"></span><span class="block green"></span><span class="block green"></span><span class="block green"></span><span class="block green"></span><span class="block green"></span><span class="block empty"></span>
+            </div>
+            <div class="matrix-row">
+              <span class="block empty"></span><span class="block empty"></span><span class="block empty"></span><span class="block green"></span><span class="block green"></span><span class="block green"></span><span class="block green"></span><span class="block green"></span>
+            </div>
+
+            <div class="matrix-footer-range">
+              <span>BASIC</span>
+              <span>EXPERT</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- QUOTE BOX -->
+      <section class="content-card quote-middle-card">
+        <span class="corner-tick top-left">┌</span>
+        <span class="corner-tick top-right">┐</span>
+        <span class="corner-tick bottom-left">└</span>
+        <span class="corner-tick bottom-right">┘</span>
+
+        <span class="quote-star-icon">↘</span>
+
+        <h3 class="quote-heading text-acid">
+          “DESIGN IS INTELLIGENCE MADE VISIBLE.”
+        </h3>
+
+        <div class="quote-card-footer">
+          <svg class="mini-wireframe-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="12" r="10" />
+            <ellipse cx="12" cy="12" rx="10" ry="4" />
+          </svg>
+          <span class="plus-mini">+</span>
+        </div>
+      </section>
+
+      <!-- TOOLS CARD (VIBRANT ACID GREEN) -->
+      <section class="content-card tools-acid-card">
+        <span class="tools-card-title">TOOLS</span>
+
+        <div class="tools-text-list">
+          <span>VS CODE</span>
+          <span>NODE.JS / EXPRESS</span>
+          <span>REACT / NEXT.JS</span>
+          <span>TAILWIND CSS</span>
+          <span>C++ / POSTMAN</span>
+          <span>GIT & FIGMA</span>
+        </div>
+
+        <div class="tools-card-footer">
+          <span class="starburst-icon">✶</span>
+          <div class="tools-progress-bar">
+            <div class="progress-fill-dark"></div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- ROW 2.5: ACHIEVEMENTS & HONORS -->
+    <section id="achievements" class="content-card achievements-card">
+      <div class="card-title-bar">
+        <span class="eyebrow-text">ACHIEVEMENTS &amp; HONORS</span>
+        <span class="meta-tag">[ RECOGNITION &amp; METRICS ]</span>
+      </div>
+
+      <div class="achievements-grid">
+        
+        <!-- 01: GSMA Nokia IMC Hackathon -->
+        <div class="achievement-item">
+          <span class="ach-num">01</span>
+          <div class="ach-content">
+            <h4 class="ach-title">GSMA CONNECTED HACKATHON (NOKIA APIs)</h4>
+            <p class="ach-desc">Top 10 Finalist out of 1,800+ teams at Yashobhoomi New Delhi (IMC 2025). Built FinSecure backend with Nokia Network APIs.</p>
+          </div>
+          <span class="ach-tag text-acid">TOP 10 FINALIST</span>
+        </div>
+
+        <!-- 02: TECHgium LTTS -->
+        <div class="achievement-item">
+          <span class="ach-num">02</span>
+          <div class="ach-content">
+            <h4 class="ach-title">TECHgium® 9TH EDITION (LTTS)</h4>
+            <p class="ach-desc">National Finalist with Helios AI — GenAI-Powered Oracle for Predictive Solar Farm Management.</p>
+          </div>
+          <span class="ach-tag text-acid">FINAL ROUND</span>
+        </div>
+
+        <!-- 03: Globathon 2025 -->
+        <div class="achievement-item">
+          <span class="ach-num">03</span>
+          <div class="ach-content">
+            <h4 class="ach-title">GLOBATHON 2025 (GLOBATECH PUNE)</h4>
+            <p class="ach-desc">Shortlisted Top 8 out of 117 teams. Built Finora AI financial analyst platform in a 10-hour hackathon marathon.</p>
+          </div>
+          <span class="ach-tag text-acid">TOP 8 TEAMS</span>
+        </div>
+
+        <!-- 04: Tesco dunnhumby InnovAItion Jam -->
+        <div class="achievement-item">
+          <span class="ach-num">04</span>
+          <div class="ach-content">
+            <h4 class="ach-title">TESCO RETAIL MEDIA InnovAItion JAM</h4>
+            <p class="ach-desc">Finalist Top 8 out of 8,700+ registrations nationwide powered by dunnhumby. Built RetailSyncAI GenAI builder.</p>
+          </div>
+          <span class="ach-tag text-acid">TOP 8 FINALIST</span>
+        </div>
+
+        <!-- 05: Innovent Sobus NMIMS (Lokmat & Pune Nagari) -->
+        <div class="achievement-item">
+          <span class="ach-num">05</span>
+          <div class="ach-content">
+            <h4 class="ach-title">INNOVENT BY SOBUS @ NMIMS SHIRPUR</h4>
+            <p class="ach-desc">Secured 3rd Place with CropConnect AgriTech startup. Featured in Lokmat &amp; Pune Nagari newspapers!</p>
+          </div>
+          <span class="ach-tag text-acid">3RD PLACE WINNER</span>
+        </div>
+
+        <!-- 06: Udaan Innovation Competition -->
+        <div class="achievement-item">
+          <span class="ach-num">06</span>
+          <div class="ach-content">
+            <h4 class="ach-title">UDAAN INNOVATION COMPETITION</h4>
+            <p class="ach-desc">Secured 1st Place Champion in regional innovation and entrepreneurship showcase.</p>
+          </div>
+          <span class="ach-tag text-acid">1ST PLACE WINNER</span>
+        </div>
+
+        <!-- 07: Codesphere GCOEJ -->
+        <div class="achievement-item">
+          <span class="ach-num">07</span>
+          <div class="ach-content">
+            <h4 class="ach-title">CODESPHERE 24-HR HACKATHON @ GCOEJ</h4>
+            <p class="ach-desc">Finalist at 24-hour hackathon organized by GCOEJ Jalgaon &amp; sponsored by Jain Irrigation.</p>
+          </div>
+          <span class="ach-tag text-acid">FINALIST</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ROW 3: LET'S CREATE SOMETHING REAL ↗ CTA & CONTACT -->
+    <section id="contact" class="content-card create-real-cta-card">
+      
+      <div class="create-real-main">
+        <div class="create-title-row">
+          <h2 class="create-text-white">LET'S CREATE</h2>
+          <span class="create-arrow-giant">↗</span>
+        </div>
+        <h2 class="create-text-acid">SOMETHING REAL.</h2>
+      </div>
+
+      <div class="create-real-side">
+        <div class="contact-info-block">
+          <span class="info-label">CONTACT</span>
+          <a href="mailto:tejaspatil1175@gmail.com" class="info-val">tejaspatil1175@gmail.com</a>
+          <span class="info-val">+91 93226 77145</span>
+        </div>
+
+        <div class="contact-info-block">
+          <span class="info-label">FOLLOW</span>
+          <a href="https://github.com/Tejaspatil1175" target="_blank" rel="noreferrer" class="info-val">@Tejaspatil1175</a>
+          <a href="https://www.linkedin.com/in/tejaspatil-dev/" target="_blank" rel="noreferrer" class="info-val">/in/tejaspatil-dev</a>
+        </div>
+
+        <button class="work-together-btn copy-email-trigger" title="Work Together — Copy Email">
+          <span class="wt-arrow">↗</span>
+          <div class="wt-text">
+            <span>WORK</span>
+            <span>TOGETHER</span>
+          </div>
+        </button>
+      </div>
+
+      <div id="toast-notify" class="toast-hidden">
+        ✓ EMAIL COPIED TO CLIPBOARD
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER BAR -->
+  <footer class="site-footer">
+    <div class="footer-left-brand"><span class="text-white bold">TEJAS PATIL PORTFOLIO</span></div>
+    <div class="footer-center-tag">DESIGN. STRATEGY. IMPACT.</div>
+    <div class="footer-right-scroll">THANKS FOR SCROLLING</div>
+  </footer>
+
+  <!-- JavaScript File -->
+  <script type="module" src="script.js"></script>
+</body>
+</html>
