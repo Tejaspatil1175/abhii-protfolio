@@ -1,5 +1,5 @@
 /* ==========================================================================
-   TEJAS PATIL PORTFOLIO — RESPONSIVE DESIGN SYSTEM & LAYOUT
+   ABHISHEK KOLI PORTFOLIO — RESPONSIVE DESIGN SYSTEM & LAYOUT
    ========================================================================== */
 
 /* 1. GLOBAL RESET & BOX-SIZING */
@@ -10,12 +10,14 @@
 }
 
 :root {
-  --acid-green: #a3ff12;
-  --bg-dark: #070807;
-  --bg-card: #0a0b0a;
-  --border-acid: #22251d;
-  --text-white: #e5e7e0;
-  --text-muted: #9ea393;
+  --acid-green: #b026ff;
+  --purple-glow: #a855f7;
+  --bg-dark: #070510;
+  --bg-card: #0c081c;
+  --border-acid: #251642;
+  --border-purple: #3b1d6e;
+  --text-white: #f3e8ff;
+  --text-muted: #a79bbb;
   --text-dark: #000000;
   
   --font-bebas: "Bebas Neue", sans-serif;
@@ -47,7 +49,7 @@ body {
 
 /* Paper noise texture overlay */
 .acid-noise {
-  background-image: radial-gradient(rgba(163, 255, 18, 0.03) 1px, transparent 0);
+  background-image: radial-gradient(rgba(176, 38, 255, 0.05) 1px, transparent 0);
   background-size: 24px 24px;
 }
 
@@ -109,7 +111,7 @@ body {
 .pixel-cell {
   width: 100%;
   height: 100%;
-  border: 1px solid rgba(163, 255, 18, 0.008);
+  border: 1px solid rgba(176, 38, 255, 0.015);
   background-color: transparent;
   border-radius: 1px;
   transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
@@ -117,9 +119,9 @@ body {
 
 .pixel-cell:hover, .pixel-cell.active {
   transform: scale(1.6) translateY(-1px);
-  background-color: rgba(163, 255, 18, 0.12);
-  border-color: rgba(163, 255, 18, 0.25);
-  box-shadow: 0 0 6px rgba(163, 255, 18, 0.18);
+  background-color: rgba(176, 38, 255, 0.25);
+  border-color: rgba(176, 38, 255, 0.4);
+  box-shadow: 0 0 8px rgba(176, 38, 255, 0.35);
   z-index: 15;
 }
 
