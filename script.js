@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // 1. COPY EMAIL TO CLIPBOARD
   const emailTriggers = document.querySelectorAll("#copy-email-btn, #main-contact-btn, .copy-email-trigger");
 
-  const emailToCopy = "abhishekkoli.dev@gmail.com";
+  const emailToCopy = "abhishekkoli79360@gmail.com";
 
   function handleCopyEmail() {
     navigator.clipboard.writeText(emailToCopy).then(() => {
